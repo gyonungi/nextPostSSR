@@ -1,5 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Простейшее приложение на базе next.js с использованием AppRouter и TypeScript
 
+Список постов, при отркытии поста - показываем ещё список комментариев. По userId подтягиваем логин пользователя.
+
+API: https://jsonplaceholder.typicode.com/
+
+
+Внешний вид - любой бесплатный шаблон, хоть бутстрап. Важно показать работу со SCSS в формате CSS Modules.
+Каждый пост на отдельном URL.
+Посты должны подтягиваться так, чтобы поисковые роботы видели уже отредеренные страницы(т.е. через SSR и с использованием next seo).
+Изобразить фейковую пагинацию(в jsonplaceholder нет пагинации, но можно прикинуться, что через page=2 оно отдает что-то другое).
+Делаем фейковое API для авторизации по логину-паролю. Управление состоянием через https://github.com/storeon/storeon.
 ## Getting Started
 
 First, run the development server:
