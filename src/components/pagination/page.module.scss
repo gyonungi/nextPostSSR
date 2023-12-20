@@ -1,0 +1,36 @@
+$pagin-width: 2rem;
+$pagin-border: 1px solid #eaeaea;
+$pagin-radius: 0.5rem;
+.pagination {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+
+.pageLink {
+	cursor: pointer;
+}
+
+.pageItem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: $pagin-width;
+	height: $pagin-width;
+	border: $pagin-border;
+	border-radius: $pagin-radius;
+	cursor: pointer;
+}
+
+.pageItemActive {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: $pagin-width;
+	height: $pagin-width;
+	border: $pagin-border;
+	border-radius: $pagin-radius;
+	cursor: pointer;
+	background-color: red;
+}
